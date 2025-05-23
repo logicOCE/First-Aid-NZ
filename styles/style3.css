@@ -95,14 +95,14 @@ html {
 
 .a {
     margin-left: 25px;
-    background-image: url("../images/a.png");
+    background-image: url("../images/cut.png");
     background-size: contain;
     border-radius: 10px;
     transition: 0.2s;
 }
 
 .a:hover {
-    background-image: url("../images/a1.png");
+    background-image: url("../images/cut1.png");
     background-size: contain;
     color: black;
     border-radius: 10px;
@@ -110,14 +110,14 @@ html {
 }
 
 .b {
-    background-image: url("../images/b.png");
+    background-image: url("../images/bone.png");
     background-size: contain;
     border-radius: 10px;
     transition: 0.2s;
 }
 
 .b:hover {
-    background-image: url("../images/b1.png");
+    background-image: url("../images/bone1.png");
     background-size: contain;
     color: black;
     border-radius: 10px;
@@ -125,14 +125,14 @@ html {
 }
 
 .c {
-    background-image: url("../images/c.png");
+    background-image: url("../images/burn.png");
     background-size: contain;
     border-radius: 10px;
     transition: 0.2s;
 }
 
 .c:hover {
-    background-image: url("../images/c1.png");
+    background-image: url("../images/burn1.png");
     background-size: contain;
     color: black;
     border-radius: 10px;
@@ -140,14 +140,14 @@ html {
 }
 
 .d {
-    background-image: url("../images/d.png");
+    background-image: url("../images/rash.png");
     background-size: contain;
     border-radius: 10px;
     transition: 0.2s;
 }
 
 .d:hover {
-    background-image: url("../images/d1.png");
+    background-image: url("../images/rash1.png");
     background-size: contain;
     color: black;
     border-radius: 10px;
