@@ -62,22 +62,97 @@ html {
 
 .top h1 {
     font-size: 45px;
-    width: auto;
     margin-top: 150px;
+    margin-left: 50px;
     padding: 20px;
     border-radius: 10px;
-    margin-left: 50px;
-}
-
-.top h2 {
-    margin-top: 220px;
-    margin-left: 62px;
 }
 
 .top h1, h2 {
     color: #f2f2f2;
     background-color: #333333;
     position: absolute;
+}
+
+.topics {
+    background-color: #FBC917;
+    margin-top: -45px;
+}
+
+.a, .b, .c, .d {
+    background-color: #333333;
+    color: white;
+    width: 400px;
+    display: inline-block;
+    text-align: center;
+    padding-top: 160px;
+    margin-top: 20px;
+    margin-left: 5px;
+    margin-right: 5px;
+    margin-bottom: 20px;
+    height: 240px;
+}
+
+.a {
+    margin-left: 25px;
+    background-image: url("../images/a.png");
+    background-size: contain;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.a:hover {
+    background-image: url("../images/a1.png");
+    background-size: contain;
+    color: black;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.b {
+    background-image: url("../images/b.png");
+    background-size: contain;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.b:hover {
+    background-image: url("../images/b1.png");
+    background-size: contain;
+    color: black;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.c {
+    background-image: url("../images/c.png");
+    background-size: contain;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.c:hover {
+    background-image: url("../images/c1.png");
+    background-size: contain;
+    color: black;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.d {
+    background-image: url("../images/d.png");
+    background-size: contain;
+    border-radius: 10px;
+    transition: 0.2s;
+}
+
+.d:hover {
+    background-image: url("../images/d1.png");
+    background-size: contain;
+    color: black;
+    border-radius: 10px;
+    display: inline-block;
+    transition: 0.2s;
 }
 
 footer {
@@ -87,13 +162,6 @@ footer {
     padding-bottom: 20px;
     padding-left: 30px;
     display: flex;
-}
-
-.info {
-    background-color: #FBC917;
-    padding-left: 10px;
-    padding-top: 20px;
-    margin-top: -45px;
 }
 
 footer p:not(:first-child) {
